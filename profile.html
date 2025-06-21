@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        <style>
+            .container {
+                display: flex;
+                flex-direction: column;
+                height: 100svh;
+                width: 100svw;
+                justify-content: center;
+                align-items: center;
+            }
+            .personal_info {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 12px;
+            }
+            .personal_img {
+                border-radius: 100px;
+                margin-right: 24px;
+            }
+            table, tr, th, td {
+                border-style: dotted;
+            }
+            tr, th, td {
+                padding-inline: 1.5rem;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="personal_info">
+                <img 
+                    class="personal_img"
+                    src="assets/plum-blossoms.jpg"
+                    alt="Ger Image"
+                    style="width: 150px; height: 150px;"
+                >
+                <div class="info">
+                    <h1>Chinnawat Paksupho</h1>
+                    <ul>
+                        <li>กำลังศึกษาอยู่ชั้นมัธยมศึกษาปีที่ 5</li>
+                        <li>เลขที่ 1</li>
+                    </ul>
+                    <a href="https://www.patum.ac.th/">โรงเรียนปทุมราชวงศา</a>
+                </div>
+            </div>
+            <div class="award">
+                <h2>ผลงานที่ภูมิใจ</h2>
+                <table>
+                    <tr>
+                        <th>ปีการศึกษา</th>
+                        <th>ผลงาน</th>
+                    </th>
+                    <tr>
+                        <td>2019</td>
+                        <td>ชนะเลิซการแข่งขันฟุตบอลกีฬาสี</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>ชนะประกวดพานไหว้ครู</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>Hackathon Champion</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+    </body>
+</html>

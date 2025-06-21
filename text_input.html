@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text Input HTLM and CSS</title>
+        <style>
+            body {
+                text-align: center;
+                margin: 0;
+            }
+
+            .row {
+                margin: auto;
+                max-width: 600px;
+            }
+
+            input, button {
+                font-size: 16px;
+                padding: 0.5rem;
+                width: 100%;
+                margin: 2.5px;
+            }
+            input {
+                border-radius: 8px;
+                border-width: 0.5px;
+                border-block-color: gray;
+            }
+            input[id*="name"] {
+                width: 46%;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="row">
+                <input id="first_name" name="first_name" placeholder="First Name" autocomplete="name">
+                <input id="last_name" name="last_name" placeholder="Last Name" autocomplete="family-name">
+            </div>
+            <div class="row">
+                <input id="email" name="email" placeholder="Email" autocomplete="email">
+            </div>
+            <div class="row">
+                <button>Sign up</button>
+            </div>
+        </main>
+    </body>
+</html>
